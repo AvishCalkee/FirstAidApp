@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#203138"
+    tools:context="com.app.firstaid.firstaidapp.Dashboard">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_marginTop="100dp"
+          android:layout_marginLeft="50dp"
+          android:layout_marginRight="50dp"
+          android:layout_marginBottom="100dp"
+          android:background="@drawable/round_linear_dashboard"
+          android:weightSum="4"
+          >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                >
+
+                  <Button
+                      android:id="@+id/btnVolunteer"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="30dp"
+                      android:layout_marginRight="30dp"
+                      android:background="@drawable/round_button_volunteer"
+                      android:text="Volunteer"
+                      android:textSize="15sp"
+                      android:textColor="#FFF"
+
+
+                      />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <Button
+                android:id="@+id/btnNeedy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/round_button_emerency"
+                android:text="Needy"
+                android:textSize="15sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="50dp"
+                />
+
+            <Button
+                android:id="@+id/btnNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/round_button_new"
+                android:text="New"
+                android:textSize="15sp"
+                android:textColor="#FFF"
+                android:layout_marginTop="50dp"
+                />
+
+      </LinearLayout>
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="100dp"
+          android:src="@drawable/plus"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="50dp"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_alignParentBottom="true"
+          android:text="For a better World"
+          android:textColor="#FFF"
+          android:textSize="22sp"
+          android:textStyle="italic"
+          android:layout_marginBottom="50dp"
+          />
+
+
+</RelativeLayout>

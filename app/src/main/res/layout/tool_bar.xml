@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#203138"
+    android:elevation="5dp"
+    >
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/arrow"
+                   />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMERGENCIES"
+                    android:textSize="20dp"
+                    android:textColor="#13eaa2"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+
+      </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
